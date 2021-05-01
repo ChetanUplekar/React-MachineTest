@@ -44,9 +44,9 @@ export default class DropdownComp extends Component {
                         </select>
                     </div>
                 </div>
-                {info_a==true?<Info_one></Info_one>:null}
-                {info_b==true?<Info_two></Info_two>:null}
-                {info_c==true?<Info_three></Info_three>:null}
+                {info_a==1?<Info_one></Info_one>:null}
+                {info_b==1?<Info_two></Info_two>:null}
+                {info_c==1?<Info_three></Info_three>:null}
                 
             </div>
         )
